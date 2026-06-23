@@ -1,0 +1,105 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+    color: #666;
+}
+/* Navigation */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    border-bottom: 2px solid #c2c0c092;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.username{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.login-btn{
+    border-style: none;
+    padding: 1rem 2.8rem;
+    background-color:#e4eef5;
+    color: #5a5af5;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.login-btn p{
+    font-size: 1rem;
+}
+.login-btn:hover{
+    background-color:#9ad5fe;
+    color: #0404a8;
+}
+/* Search bar */
+.search-bar{
+    margin: 8rem 5rem;
+    border: 2px solid #c2c0c092;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    width: 90%;
+    position: fixed;
+    margin-bottom: 0;
+    background-color: white;
+}
+#searchInpt{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-style: none;
+    border: 1px solid #666;
+    background-color: #e1dede92;
+}
+.search-btn{
+    margin-left: 0.5rem;
+    border-style: none;
+    padding: 0.5rem 1.5rem;
+    background-color:#7503c7;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: #580394;
+}
+/* Fake Header */
+.fake-header{
+    background-color:white;
+    width: 100%;
+    height: 35%;
+}
+/* Main Section */
+.main-container{
+    margin: 5rem;
+    margin-top: 0;
+}
+.main-record{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;  
+}
+.record{
+    line-height: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #e1dede92;
+}
+.span-record{
+    color: #666;
+}
+.record p{
+    color: black;
+}
+.std-name{
+    color: black;
+}
